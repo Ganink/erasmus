@@ -1,0 +1,44 @@
+* {
+    font-family: calibri;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 1px 1px rgba(0, 132, 255, 0.493);
+}
+
+.content{
+    margin: 0% auto;
+}
+
+label {
+    margin: 1%;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+select {
+    padding: 1%;
+    border: 1px solid #ff0000;
+}
+
+select:hover {
+    background: #ff00005b;
+}
+
+.display-3{
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(53, 53, 53, 0.816);
+    border: 1px solid #222;
+    margin: 1%;
+}
+
+#map:hover {
+    box-shadow: 1px 4px 8px 1px rgba(7, 15, 83, 0.356), 1px 6px 20px 1px rgba(7, 15, 83, 0.356);
+}
